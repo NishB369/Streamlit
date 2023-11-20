@@ -1,11 +1,8 @@
-l=eval(input('Enter a list:'))
-ul=list(set(l))
-fl=[]
-d={}
-for i in ul:
-    d[i]=l.count(i)
-a=max(d.values())
-for i in d:
-    if d[i]==a:
-        fl.append(i)
-print(max(fl))
+n=int(input('Enter a number:'))
+for i in range(n+1):
+    for j in range(1,6-i):
+        if j%2==0:
+            print('O',end=' ')
+        else:
+            print('X',end=' ')
+    print()
