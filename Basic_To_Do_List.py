@@ -3,7 +3,6 @@ from datetime import date
 
 st.title('To-Do List')
 
-# For current date display
 cdt = date.today()
 st.subheader('{ ' + str(cdt) + ' }')
 
