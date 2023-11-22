@@ -28,7 +28,7 @@ for i in range(n):
 st.markdown('## *List*')
 
 if l==[]:
-    st.image('bhai-kya-kar-raha-hai-tu-ashneer-grover.gif')
+    st.image('bhai-kya-kar-raha-hai-tu-ashneer-grover.gif',style={'display': 'block', 'margin-left': 'auto', 'margin-right': 'auto'})
 
 chk=''
 for j,i in enumerate(l):
