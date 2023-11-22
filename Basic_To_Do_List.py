@@ -28,6 +28,7 @@ for i in range(n):
 st.markdown('## *List*')
 
 if l==[]:
+    st.latex('Your List has NO TASKS!')
     st.image('bhai-kya-kar-raha-hai-tu-ashneer-grover.gif')
 chk=''
 for j,i in enumerate(l):
